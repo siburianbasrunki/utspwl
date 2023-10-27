@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Produk</title>
+</head>
+<body>
+    <h1>Daftar Produk</h1>
+    <ul>
+        <li tal:repeat="product products">
+            <span>${product.name} - Rp ${product.price}</span>
+        </li>
+    </ul>
+</body>
+</html>
